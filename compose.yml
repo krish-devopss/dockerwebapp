@@ -7,8 +7,6 @@ services:
      - "3306:3306"
    networks:
      - mynetwork
-   volumes:
-     - db_data:/var/lib/mysql
 
  application:
    image: krishn23/manual:app
@@ -23,7 +21,5 @@ networks:
   mynetwork:
     driver: overlay
 
-volumes:
-  db_data:
 
 
