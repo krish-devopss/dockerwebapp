@@ -11,7 +11,7 @@ services:
      - db_data:/var/lib/mysql
 
  application:
-   image: shaikmustafa/harikanew:appimage
+   image: krishn23/manual:app
    ports:
      - "1111:8080"
    depends_on:
