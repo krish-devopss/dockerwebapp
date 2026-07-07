@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: mustafaflm.azurecr.io/db:129
+          image: krishn23/k8sproject1:db
           ports:
             - containerPort: 3306
       imagePullSecrets:
